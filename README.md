@@ -5,7 +5,7 @@ For sorting it in a correct manner we calculate distance of each contours.
 
 ## Example Image
 These is my test image:
-'''
+'''python
 image = cv2.imread("Final.jpg")
 '''
 ![alt text](https://github.com/Harsh120/Sort-Contour-By-Distance/blob/master/Final.jpg)
