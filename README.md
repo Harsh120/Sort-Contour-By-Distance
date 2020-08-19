@@ -1,7 +1,7 @@
 # Sort-Contour-By-Distance
 
 Many times we want to sort the contours is similar manner we write. For that built-in function for CV2 does not help that much.
-For sorting it in a correct manner we calculate distance of each contours.
+For sorting it in a correct manner we calculate distance between each contours to find minimum distance. Here the distance is define as the midpoint of the a contour of the right-side to midpoint of the left side of another contour. Sort all contours by minimum distance. If we get minimum distance between contour and the right-edge of the image, that mean we now need to change the line. 
 
 ## Example Image
 Taking a test image:
